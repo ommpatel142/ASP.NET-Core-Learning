@@ -1,4 +1,4 @@
-namespace Menu.Models
+namespace ASPNETCORELEARNING.Models
 {
     public class Ingredient
     {
