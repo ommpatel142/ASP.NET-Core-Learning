@@ -1,16 +1,7 @@
-using ASPNETCORELEARNING.Data;
-using Microsoft.EntityFrameworkCore;
-
 var builder = WebApplication.CreateBuilder(args);
 
-// Add MVC services
+// Add services to the container.
 builder.Services.AddControllersWithViews();
-
-// Register MenuContext with SQLite
-builder.Services.AddDbContext<MenuContext>(options =>
-    options.UseSqlite(
-        builder.Configuration.GetConnectionString("DefaultConnection")
-    ));
 
 var app = builder.Build();
 
