@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using ASPNETCORELEARNING.Models;
+using Menu.Models;
 
-namespace ASPNETCORELEARNING.Data
+namespace Menu.Data
 {
     public class MenuContext : DbContext
     {

@@ -1,4 +1,4 @@
-using ASPNETCORELEARNING.Data;
+using Menu.Data;
 using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
 
